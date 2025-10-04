@@ -1,0 +1,49 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 13px;
+}
+
+#viewtable{
+height: 100%;
+width: 100%;
+}
+#viewtable th{
+color:#FF0033;
+background-color:#333333;
+text-align: center;
+}
+#viewtable td{
+color:white;
+background-color:#009933;
+font-size: 20px;
+border-bottom: 2px solid black;
+}
+#viewtable td a{
+color:#FFCC00;
+text-decoration:none;
+}
+#viewtable td:hover{
+color:#000000;
+background-color:#FF0066;
+cursor:pointer;
+}
+#viewtable td a:hover{
+color:#000000;
+background-color:#FF0066;
+cursor:pointer;
+}
+#search{
+text-align:right;
+}
+#search input{
+text-align:left;
+}
+#searchimage{
+height:20px;
+width:20px;
+}
